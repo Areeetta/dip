@@ -29,11 +29,12 @@
 
 .head {
     width: 100%;
-    height:80px;
+    height:60px;
   text-align: center;
   font-size: 25px;
-  background-color: rgb(247, 139, 189);
+  background-color: rgb(247, 225, 170);
   border-radius: 25px;
+  font-family: "Monotype Corsiva" Cursive;
     } 
     .oborudovanie{
         text-align: center;
@@ -45,35 +46,77 @@
       text-align: center;
       padding: 1vw;
     }
-    .opisanie{
-        font-size: 40px;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
     .body{
-background-color: rgb(253, 176, 212);
-border-radius: 25px;
+background-color: rgb(251, 237, 193);
+width: 98.5vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
     }
-
-
+.blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 25px;
+    text-align: left;
+    margin-right: 10vw;
+    font-family: "Monotype Corsiva" Cursive;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 25px;
+    text-align: right;
+    margin-left: 20vw;
+    font-family: "Monotype Corsiva" Cursive;
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 25px;
+    text-align: left;
+    margin-right: 10vw;
+    font-family: "Monotype Corsiva" Cursive;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 10px 50px 0px 50px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
 </style>
 <body>
+    
+<div class="head">
+    <div class="oborudovanie"><a href="">Все оборудование</a></div>
+</div>    
     <main>
-            <div class="head">
-                    <div class="oborudovanie"><a href="">Все оборудование</a></div>
-          </div>    
-
     <div class="body">
     <div class="nachalo">
     <img src="img/melnicas.jpg" alt="">
     </div>
-    <div class="opisanie">
-        <p align="center">Мельница сырьевая - это специализированное оборудование, применяемое в промышленности для измельчения сырого материала до требуемого размера, чтобы подготовить его для последующего использования или обработки. Она обеспечивает переработку различных видов сырья, таких как зерно, минералы, химические вещества и другие материалы.</p>
-        <p align="center">Мельница сырьевая состоит из корпуса, внутри которого находится механизм измельчения. Механизм измельчения может включать вращающиеся диски, роторы, валы с ножами или другие измельчающие элементы, которые преобразуют сырой материал в более мелкую форму. Сырой материал подается внутрь мельницы через специальное входное отверстие или желоб, где начинается процесс измельчения.
-        </p>
-        <p align="center">Во время работы мельницы сырьевой сырой материал подвергается силе удара, сжатия, трения или резания от измельчающих элементов. Это позволяет разламывать и разрушать материал на более мелкие частицы. Измельченный материал проходит через отверстия в решетке или сетке, установленной в мельнице, и собирается в соответствующем сборнике или проходит дальнейшую обработку.</p>
+    <div class="container">
+        <div class="blok1">
+        <p>Мельница сырьевая - это специализированное оборудование, применяемое в промышленности для измельчения сырого материала до требуемого размера, чтобы подготовить его для последующего использования или обработки.</p>
+            <p>Она обеспечивает переработку различных видов сырья, таких как зерно, минералы, химические вещества и другие материалы.</p>
+        </div>
+        <br>
+        <div class="blok2">
+        <p>Мельница состоит из корпуса, внутри которого находится механизм измельчения. </p>
+    <p> Механизм измельчения может включать вращающиеся диски, роторы, валы с ножами или другие измельчающие элементы, которые преобразуют сырой материал в более мелкую форму. </p>
+        </div>
+        <br>
+        <div class="blok3">
+        <p>Во время работы мельницы сырьевой сырой материал подвергается силе удара, сжатия, трения или резания от измельчающих элементов. Это позволяет разламывать и разрушать материал на более мелкие частицы. </p>
+        <p>Измельченный материал проходит через отверстия в решетке или сетке, установленной в мельнице, и собирается в соответствующем сборнике или проходит дальнейшую обработку.</p>
     </div>
-    </div>
+</div>
 </main>
 </body>
 </html>
