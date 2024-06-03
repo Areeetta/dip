@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melnica</title>
+</head>
+<style>
+    @font-face {
+	font-family: 'Bubblez Graffiti';
+	src:url('fonts/ofont.ru_Bubblez Graffiti.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+	font-family: 'Monotype Corsiva';
+	src: url('fonts/monotypecorsiva.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@media (max-width: 2000px) {
+    .head {
+    width: 98%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .zagalovok{
+        text-align: center;
+        font-size: 25px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+    
+      
+    }
+    .body{
+  background-color: rgb(251, 237, 193);
+width: 95.5vw;
+height:54%;
+border-radius: 25px;
+padding-right: 10px;
+    }
+    .blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 3vh;
+    padding: 10px 10px 10px 5px;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px 0px 0px 40px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
+}
+@media (max-width: 1200px) {
+    .head {
+    width: 98.5%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+  
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+      padding: 1vw;
+    }
+    .body{
+  background-color: rgb(251, 237, 193);
+width: 96vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+padding-right: 10px;
+    }
+    .blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 3vh;
+    padding: 10px 10px 10px 5px;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px 0px 0px 40px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
+}
+@media (max-width: 1000px) {
+    .head {
+    width: 97%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+  
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+      padding: 1vw;
+    }
+    .body{
+    background-color: rgb(251, 237, 193);
+width: 94vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+padding-right: 10px;
+    }
+    .blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 3vh;
+    padding: 10px 10px 10px 5px;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 10px 0px 0px 40px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
+ 
+}
+@media (max-width: 768px) {
+    .head {
+    width: 98%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+  
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+      padding: 1vw;
+    }
+    .body{
+        padding-right: 10px;
+        background-color: rgb(251, 237, 193);
+width: 94vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+padding-right: 10px;
+}
+.blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 3vh;
+    padding: 10px 10px 10px 5px;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 0px 0px 10px 40px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
+}
+@media (max-width: 480px) {
+    .head {
+    width: 98%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+  
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+      padding: 1vw;
+    }
+    .body{
+        background-color: rgb(251, 237, 193);
+width: 92vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+padding-right: 10px;
+}
+.blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 30px;
+    padding: 10px 5px 10px 10px;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 5px;
+    padding: 10px 10px 10px 5px;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    padding: 10px 5px 10px 10px;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 0px 10px 10px 20px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+}
+}
+/* .head {
+    width: 100%;
+    height:60px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(247, 225, 170);
+  border-radius: 25px;
+  font-family: "Monotype Corsiva" Cursive;
+    } 
+    .oborudovanie{
+        text-align: center;
+        font-size: 30px;
+        padding: 1vw;
+    }
+    .nachalo{
+        display: block;
+      text-align: center;
+      padding: 1vw;
+    } */
+    /* .body{
+background-color: rgb(251, 237, 193);
+width: 98.5vw;
+height:54%;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+padding: 10px 0px 0px -10px;
+    } */
+/* .blok1{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    font-family: "Monotype Corsiva" Cursive;
+}
+.blok2{
+    float:right;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: right;
+    margin-right: 3vh;
+    font-family: "Monotype Corsiva" Cursive;
+    
+}
+.blok3{
+    float:left;
+    background-color: rgb(247, 225, 170);
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10vw;
+    font-family: "Monotype Corsiva" Cursive;
+}
+.container{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 10px 0px 0px 10px;
+  
+}
+p { 
+    text-indent: 25px; 
+margin:auto;
+} */
+</style>
+<body>
+    
+<div class="head">
+    <div class="oborudovanie" style="font-family: 'Bubblez Graffiti'"; ><a href="index.html" style="color: rgb(66, 69, 74)">Все оборудование</a></div>
+</div>    
+    <main>
+    <div class="body">
+        <div class="zagalovok" style="font-family: 'Bubblez Graffiti'">Печь кальцинации</div>
+    <div class="nachalo">
+    <img src="img/kalc.jpg" alt="">
+    </div>
+    <div class="container">
+        <div class="blok1" style="font-family: 'Monotype Corsiva'">
+        <p>Печь кальцинации работает по принципу противотока. Нагреваемый материал вследствие наклона печного барабана и его вращения движется навстречу горячим топочным газам, которые охлаждаются.</p>
+         </div>
+        <br>
+        <div class="blok2" style="font-family: 'Monotype Corsiva'">
+        <p>Условно в печи различают четыре температурные зоны. Производительность печи кальцинации и качество получаемого глинозема прежде всего зависит от теплового режима печи, а также от того, насколько равномерно питание печи гидроокисью. </p>
+       </div>
+        <br>
+        <div class="blok3" style="font-family: 'Monotype Corsiva'">
+        <p>При нормальном тепловом режиме температура отходящих газов в зависимости от длины печи составляет 250 - 300 С. При слишком высокой температуре в печи усиленно разрушается футеровка; при пониженной температуре получается недостаточно прокаленный глинозем.</p>
+       
+    </div>
+</div>
+</main>
+</body>
+</html>
